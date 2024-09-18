@@ -1,0 +1,69 @@
+.hero-banner {
+  padding: 2em 0;
+  color: var(--text-color-light);
+  background-size: cover;
+  background-position: 50%;
+  position: relative;
+}
+
+.hero-banner:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  opacity: 0.95;
+  background-color: var(--background-variant-2);
+}
+
+.hero-title {
+  margin-top: 0;
+}
+
+.hero-description {
+  font-size: 1.5em;
+}
+
+.sign-area {
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto 2em;
+  padding: 2em;
+  border-radius: 1em;
+  background: var(--background-light);
+  color: var(--text-color-dark);
+}
+
+.sign-area .input-row {
+  margin: 0.5em 0;
+}
+
+.sign-area label {
+  display: block;
+  margin-bottom: 0.3em;
+  font-weight: 700;
+}
+
+.sign-area input {
+  background: var(--background-light);
+  border-radius: 0.5em;
+  width: 100%;
+  height: 2.5em;
+  padding-left: 1em;
+}
+
+.sign-area button {
+  border-radius: 0.5em;
+  width: 100%;
+  height: 2.5em;
+  text-transform: uppercase;
+}
+
+.site-header {
+  padding: 0.3em 0;
+  box-shadow: var(--box-shadow);
+  background-color: var(--site-header-bg);
+  border-bottom: 2px solid var(--background-variant-2);
+}
